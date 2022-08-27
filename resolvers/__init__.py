@@ -1,0 +1,1 @@
+from resolvers.main import Query

@@ -1,0 +1,1 @@
+# Servicio para consumir previamente almacenados por el servicio de FETCHING
