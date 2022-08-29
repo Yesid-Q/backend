@@ -17,11 +17,13 @@ class Settings(BaseSettings):
     DATABASE_PORT: int
     DATABASE_DATABASE: str
 
+    TOKEN_ALGORITHM: str
 
     MODELS: List[str] = [
         'models.nation_model',
         'models.club_model',
         'models.player_model',
+        'models.user_model'
     ]
 
     class Config:

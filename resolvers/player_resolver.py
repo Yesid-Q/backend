@@ -21,7 +21,6 @@ async def get_players(
 
     return Players(items= players, page_info=PageInfo(**response))
 
-
 async def get_player_by_id(id: ID) -> Player:
     player = await PlayerModel.filter(pk= id).first()
     return player
